@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "strict": true,
+    "lib": ["esnext"],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "project": "./tsconfig.json"
+  },
+  "files": ["index.d.ts"],
+  "include": ["src/**/*", "tests/**/*", "prisma/*.ts", "app.ts", ".eslintrc.js", "swagger.ts"]
+}
