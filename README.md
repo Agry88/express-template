@@ -18,8 +18,6 @@ npm i
 Create .env file then have the following content
 ```
 DATABASE_URL = "mysql://root:illusion-admin@0.0.0.0:2001/code_island"
-EMAIL_USER = "codeisland88@gmail.com"
-EMAIL_PASSWORD = "password"
 HOST_URL = "http://localhost:3001"
 JWT_SECRET = "hashHere"
 ```
